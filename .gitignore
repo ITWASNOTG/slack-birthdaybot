@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# clasp
+.clasp.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+*.local

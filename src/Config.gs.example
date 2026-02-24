@@ -1,0 +1,16 @@
+/***** CONFIG – fill these in with your own values *****/
+
+// Slack webhook for your People Team channel (approval flow happens here)
+const PEOPLE_TEAM_DRAFT_WEBHOOK = 'https://hooks.slack.com/services/TXXXXX/BXXXXX/XXXXXXXXXX';
+
+// Slack webhook for your company-wide channel (approved messages get posted here)
+const COMPANY_CHANNEL_WEBHOOK   = 'https://hooks.slack.com/services/TXXXXX/BXXXXX/XXXXXXXXXX';
+
+// Web App URL – leave empty until you deploy (Step 5), then paste it here
+const WEB_APP_BASE_URL          = 'https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec';
+
+// Name of the sheet tab with birthday data
+const SHEET_NAME                = 'Birthdays';
+
+// Your timezone (used for date comparisons and weekend detection)
+const TIMEZONE                  = 'Europe/London';
