@@ -182,20 +182,14 @@ Helper functions for reading rows, handling timezones, formatting dates, picking
 
 ## Ideas to Build On
 
-This works well as an MVP, but there are plenty of ways to take it further:
+This works well as an MVP. Here are practical next steps:
 
-- **AI-generated blurbs** — Integrate an LLM for personalised birthday messages each time.
-- **Work anniversaries** — Same script, different date column, different blurbs.
-- **New joiner shout-outs** — Auto-post a "Welcome!" message on Day 1.
-- **Approval log** — Save actions into a second sheet tab as an audit trail.
-- **Opt-in messages** — DM the person to ask if they'd like a shout-out this year.
-- **Scheduled nudge** — If nobody approves/rejects within 24 hours, ping them with a reminder.
-- **HRIS integration** — Pull birthdays directly from your HR system API.
-- **Culture-aware copy** — Use location data to adapt message formality.
-- **"On this day" trivia** — Add a fun fact about what happened historically on their birthday.
-- **AI-selected GIFs** — Use the person's bio to pick a themed GIF.
-- **Colleague shout-in** — Include recent peer kudos in the birthday post.
-- **Sass slider** — Generate blurbs at different sass levels and let the People Team choose.
+- **Approval log** — Save approve/reject/regenerate actions to a second sheet tab as an audit trail.
+- **Work anniversaries** — Add a start-date column and reuse the same flow for tenure milestones.
+- **New joiner welcome** — Auto-post a "Welcome!" message on someone's first day.
+- **AI-generated blurbs** — Connect an LLM to write a fresh, personalised message each time instead of cycling a static list.
+- **HRIS sync** — Pull birthdays from your HR system API so the sheet stays up to date automatically.
+- **Approval reminder** — If no one acts on a draft within a few hours, nudge the People Team channel.
 
 ---
 
