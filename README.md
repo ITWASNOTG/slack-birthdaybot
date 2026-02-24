@@ -56,9 +56,15 @@ The risks:
 
 > **Note:** The SlackID is not the same as the @username. It looks like `U08XXXXXXX`. You can find it in a person's Slack profile under **More > Copy member ID**.
 
-![Spreadsheet setup](docs/images/spreadsheet-setup.png)
+Your spreadsheet should look like this:
 
-![Finding Slack member ID](docs/images/spreadsheet-headers.png)
+| Name | SlackHandleOrID | DOB | WantsCelebrated | Status |
+|---|---|---|---|---|
+| Jane Doe | U08XXXXXXX | 1990-03-25 | TRUE | Active |
+| John Smith | U07XXXXXXX | 1985-11-12 | TRUE | Active |
+| Alex Johnson | U09XXXXXXX | 1992-07-04 | FALSE | Active |
+
+> **How to find the SlackID:** Open the person's profile in Slack, click the **three dots menu (...)**, and select **Copy member ID**. It looks like `U08XXXXXXX`.
 
 ### Step 2: Create a Slack App
 
